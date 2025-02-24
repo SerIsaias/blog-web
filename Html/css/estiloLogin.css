@@ -1,0 +1,60 @@
+/* Estilo del body */
+/* Definimos el color de fondo y ajustamos la altura al 100% de la pantalla */
+body {
+    height: 100%; /* La altura ocupará toda la pantalla */
+    background-color: aliceblue; /* Color de fondo suave */
+}
+
+/* Estilo de la etiqueta formulario */
+/* Ajustamos el tamaño, la posición y el color de fondo del formulario */
+form {
+    width: 300px; /* Ancho del formulario */
+    height: 230px; /* Altura del formulario */
+    position: absolute; /* Posicionamiento absoluto en la pantalla */
+    top: 30%; /* Lo movemos hacia abajo un 30% de la pantalla */
+    left: 40%; /* Lo movemos hacia la izquierda un 40% de la pantalla */
+    background-color: rgba(202, 200, 200, 0.534); /* Color de fondo semitransparente */
+}
+
+/* Estilo de la clase grupo_input */
+/* Se usa para organizar los campos del formulario */
+.grupo_input {
+    margin-bottom: 15px; /* Espaciado entre los campos */
+    text-align: left; /* Alineación del texto a la izquierda */
+}
+
+/* Estilo de las etiquetas dentro de los inputs */
+/* Se usa para resaltar los nombres de los campos */
+.grupo_input label {
+    font-weight: bold; /* Hace el texto en negrita */
+    display: block; /* Hace que cada etiqueta ocupe su propia línea */
+    margin-bottom: 5px; /* Espaciado debajo de la etiqueta */
+}
+
+/* Estilo de los inputs del formulario */
+.grupo_input input {
+    width: 90%; /* Ancho del input al 90% del contenedor */
+    padding: 10px; /* Espaciado interno para mejorar la apariencia */
+    border: 2px solid #ccc; /* Borde del input */
+    border-radius: 5px; /* Bordes redondeados */
+    font-size: 16px; /* Tamaño del texto dentro del input */
+}
+
+/* Estilo del botón */
+/* Ajustamos la posición y tamaño del botón dentro del formulario */
+button {
+    position: absolute; /* Posicionamiento absoluto dentro del formulario */
+    width: 40%; /* Ancho del botón */
+    height: 15%; /* Altura del botón */
+    right: 29%; /* Margen derecho */
+    left: 29%; /* Margen izquierdo */
+}
+
+/* Estilo para el mensaje de error */
+/* Configuración para mostrar los mensajes de error en el formulario */
+#mensajeError {
+    position: relative; /* Se mantiene dentro del flujo del formulario */
+    text-align: center; /* Centra el texto */
+    top: 40px; /* Desplaza el mensaje hacia abajo */
+    color: red; /* Color rojo para indicar error */
+}

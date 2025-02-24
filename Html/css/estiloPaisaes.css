@@ -1,0 +1,60 @@
+/* Estilo del body */
+/* Define el color de fondo de la página y usa !important para asegurar su aplicación */
+body {
+    background-color: rgb(246, 248, 248) !important;
+}
+
+/* Estilo de la clase imagenes */
+/* Define el contenedor donde se mostrarán las imágenes */
+.imagenes {
+    position: absolute; /* Posiciona las imágenes de forma absoluta en la página */
+    margin-left: 50px; /* Margen a la izquierda para separación */
+    height: 300px; /* Altura fija para el contenedor de imágenes */
+    width: 400px; /* Ancho fijo para el contenedor de imágenes */
+    display: flex; /* Utiliza flexbox para organizar los elementos dentro */
+}
+
+/* Estilos para todas las etiquetas img */
+/* Se aplica a todas las imágenes dentro del documento */
+img {
+    max-width: 100%; /* Asegura que la imagen no supere el tamaño del contenedor */
+    max-height: 100%; /* Evita que la imagen exceda la altura definida */
+    object-fit: cover; /* Ajusta la imagen para cubrir el área sin distorsión */
+}
+
+/* Estilo de la clase descripcion */
+/* Contenedor que mostrará la información relacionada */
+.descripcion {
+    position: absolute; /* Posicionamiento absoluto dentro de la página */
+    left: 520px; /* Ubicación desde la izquierda */
+    background-color: rgb(228, 238, 238); /* Color de fondo para destacar la sección */
+    width: 700px; /* Ancho fijo del contenedor */
+    height: 300px; /* Altura fija del contenedor */
+    text-align: center; /* Alineación del texto al centro */
+}
+
+/* Estilos para todas las etiquetas de párrafo (p) */
+/* Se aplicará a cualquier <p> dentro del documento */
+p {
+    padding-left: 5px; /* Espaciado interno a la izquierda */
+    padding-right: 5px; /* Espaciado interno a la derecha */
+    text-align: justify; /* Justifica el texto para una mejor lectura */
+    color: rgb(42, 65, 165); /* Color azul para el texto */
+}
+
+/* Estilos para todas las etiquetas de lista (li) */
+/* Define la alineación de los elementos de lista */
+li {
+    text-align: left; /* Alinea el texto de los elementos de lista a la izquierda */
+}
+
+/* Estilo de la clase viaje */
+/* Define un contenedor adicional para información de viajes */
+.viaje {
+    background-color: rgb(228, 238, 238); /* Color de fondo similar al de la descripción */
+    position: absolute; /* Posicionamiento absoluto */
+    top: 400px; /* Ubicación desde la parte superior */
+    margin-left: 50px; /* Margen izquierdo para separación */
+    height: 150px; /* Altura fija del contenedor */
+    width: 1160px; /* Ancho fijo del contenedor */
+}

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Inicio de seccion</title>
+    <link rel="stylesheet" href="css/estiloLogin.css" />
+  </head>
+  <body>
+    <form id="formularioIngreso" onsubmit="return validarDatos()"><!--Formulario que resivira la informacion
+      por medio de dos divs con inputs y label, contienen id para poder obtener los datos en javascript
+      y poder trabajar con ellos-->
+      <div class="grupo_input">
+        <label for="usuario">Usuario</label>
+        <input type="text" id="usuario" placeholder="Ingresa tu usuario" />
+      </div>
+      <div class="grupo_input">
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Ingresa tu contraseña"
+        />
+      </div>
+      <button type="submit">Entrar</button><!--Boton que envia la informacion del formulario-->
+      <div id="mensajeError"></div><!--Div vacio para agregarle el mensaje error si es que el usuario 
+      o contraseña es incorrecta-->
+    </form>
+    <script src="js/funcionLogin.js"></script><!--script con la funcion de dar acceso-->
+  </body>
+</html>

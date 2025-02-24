@@ -1,0 +1,46 @@
+/* Estilo del body */
+/* Definimos el fondo de pantalla, ajustamos la imagen para cubrir el área y la centramos */
+body {
+    height: 97.1vh; /* Altura del body casi completa (puedes probar con 100vh) */
+    background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+    background-position: center; /* Centra la imagen de fondo */
+    background-image: url("../Img/Inicio/portada.jpg"); /* Imagen de fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+}
+
+/* Estilo de la clase título */
+/* Posicionamos el texto en la página y le damos color */
+.titulo {
+    position: absolute; /* Posiciona el elemento de forma absoluta en la pantalla */
+    color: #f52c11; /* Color rojo fuerte para el texto */
+    text-align: center; /* Centra el texto */
+    top: 34%; /* Mueve el texto hacia abajo */
+    left: 20%; /* Mueve el texto hacia la izquierda */
+}
+
+/* Estilo de la id slogan */
+/* Configuramos el estilo y la ubicación del slogan */
+#slogan {
+    position: absolute; /* Posicionamiento absoluto */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; /* Fuente personalizada */
+    font-size: larger; /* Tamaño del texto */
+    width: 550px; /* Ancho del contenedor */
+    height: 40px; /* Altura del contenedor */
+    top: 350px; /* Posición desde la parte superior */
+    left: 170px; /* Posición desde la izquierda */
+}
+
+/* Estilo de la id busqueda */
+/* Configuración del cuadro de búsqueda */
+#busqueda {
+    position: absolute; /* Posicionamiento absoluto */
+    left: 700px; /* Posición desde la izquierda */
+    top: 340px; /* Posición desde la parte superior */
+    font-size: x-large; /* Tamaño del texto */
+}
+
+/* Efecto hover para slogan y búsqueda */
+/* Cambia el color del texto al pasar el mouse sobre ellos */
+#slogan:hover, #busqueda:hover {
+    color: rgb(104, 5, 5); /* Cambia el color del texto a un rojo más oscuro */
+}

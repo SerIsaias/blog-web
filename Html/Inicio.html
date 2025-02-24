@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Blog de Viajes</title><!--Titulo que aparesera en la pagina-->
+    <link rel="stylesheet" href="css/estiloNav.css" /><!--Archivos de estilos que dan formato al html-->
+    <link rel="stylesheet" href="css/estiloInicio.css" />
+  </head>
+  <body>
+    <nav class="menu"> <!--nav que usaremos como menu que mostrara las opciones disponibles con un a href que redirijira
+        al lin o archivo seleccionado-->
+      <a href="Inicio.html">Inicio</a>
+      <a href="China.html">China</a>
+      <a href="Rusia.html">Rusia</a>
+      <a href="Alemania.html">Alemania</a>
+      <a href="index.html">Cerrar sesion</a>
+    </nav>
+
+    <h1 class="titulo">Encuentra tu proximo Viaje</h1> <!--Titulo principal-->
+    <div class="slogan"> <!--div con clase para modificarlo-->
+        <!--Input de tipo text con id para poder modificarlo desde javascript-->
+      <input 
+        type="text"
+        id="slogan"
+        placeholder="Buscando tu viaje en sueño"
+        readonly
+      />
+      <p id="busqueda"><ion-icon name="search-outline"></ion-icon></p><!--parrafo con un icono-->
+    </div>
+
+    <script src="js/funcionInicio.js"></script><!--script que se enlazan a nuestro archivo-->
+    <script
+      type="module"
+      src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src=" https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js "
+    ></script>
+  </body>
+</html>
